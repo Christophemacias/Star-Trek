@@ -1,6 +1,5 @@
 body{
 
-
 }
 
 .fond{
@@ -8,31 +7,42 @@ body{
     width: 100%;
     height: 100%;
 }
+a{
+
+    background-color: blue;
+    color: green;
+}
+
+a:hover{
+
+    background-color: red;
+}
 
 button{
 
     position: relative;
     bottom : 1200px;
-    left: 800px;
+    left: 750px;
     font-size: 30px;
     color: blue;
     background-color: green;
     padding: 5px;
-    margin: 10px;
-    
+    margin: 20px;
+    transition: transform .2s
 
 }
 
 button:hover{
 
     background-color: gold;
+    transform: scale(1.2);
 }
 
 
 H1{
 
     position: relative;
-    left: 1200px;
+    left: 1100px;
     bottom: 1000px;
     color: blue;
     
@@ -43,7 +53,7 @@ H1{
     position:relative;
     width: 10%;
     bottom: 600px;
-    left: 130px;
+    left: 20px;
     border-radius: 50%;
     transition: transform .5s
     
@@ -53,7 +63,7 @@ H1{
 
     position: relative;
     bottom: 400px;
-    right: 1000px;
+    right: 1200px;
     width: 2%;
     border-radius: 50%;
 
